@@ -1,0 +1,184 @@
+@font-face {
+  font-family: Zen Antique Soft;
+  src: url("./ZenAntiqueSoft-Regular.ttf");
+}
+
+@font-face {
+  font-family: Racing Sans One;
+  src: url("./RacingSansOne-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+div.Curtain {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 50%;
+}
+
+div.TopNavBar {
+  display: flex;
+  flex-direction: row;
+  width: 930px;
+  background-color: #5850EC;
+}
+
+div.TopNavBarItem {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+}
+
+div.UpperLeftCourseCode {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+div.LectureCollection {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #F7F7F8;
+  width: 200px;
+}
+
+button.LectureUploadBtn {
+  color: #6D28E0;
+  border-width: 0;
+  background-color: #F0F5FF;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  font-weight: bold;
+}
+
+input.LectureUploadBtn {
+  color: #6D28E0;
+  border-width: 0;
+  background-color: #F0F5FF;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.LectureUploadBtn:hover {
+  color: white;
+  background-color: #5850EC;
+}
+
+div.LectureUploadDialog {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  width: fit-content;
+  display: none;
+  position: fixed;
+  top: 35%;
+  left: 40%;
+}
+
+div.VideoBox {
+  background: #4B4943;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  color: #FDFBF5;
+  top: 0;
+}
+
+iframe.VideoBox {
+  width: 100%;
+  height: 100%;
+}
+
+div.VideoStats {
+  background: #F7F7F8;
+  width: 100%;
+  height: 475px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+div.VideoStatsSwitch {
+  background: #F7F7F8;
+  width: 100%;
+  height: fit-content;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  color: #FDFBF5;
+}
+
+button.VideoStatsBtn {
+  border-width: 0;
+  background-color: #5850EC;
+  color: white;
+  border-radius: 15px;
+  width: 30%;
+}
+
+div.Statistics {
+  display: block;
+}
+
+div.Radar {
+  display: none;
+}
+
+div.ListedQuestion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #F7F7F8;
+}
+
+span.QuestionTime {
+  color: #6D28E0;
+  margin: 5px;
+}
+
+button.AnswerBtn {
+  border-width: 0;
+  background-color: #5850EC;
+  color: white;
+  border-radius: 15px;
+  width: 50%;
+}
+
+div.AnswerInterface {
+  display: none;
+}
+
+input.AnswerBtn {
+  border-width: 0;
+  background-color: #5850EC;
+  color: white;
+  border-radius: 15px;
+  width: 50%;
+}
