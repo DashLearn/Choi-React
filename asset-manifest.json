@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DashLearn/Choi-React/tree/main/instructor_view/static/css/main.70f399e5.css",
+    "main.js": "/DashLearn/Choi-React/tree/main/instructor_view/static/js/main.4634e509.js",
+    "static/media/ZenAntiqueSoft-Regular.ttf": "/DashLearn/Choi-React/tree/main/instructor_view/static/media/ZenAntiqueSoft-Regular.8c5bb06655ad1235381b.ttf",
+    "static/media/RacingSansOne-Regular.ttf": "/DashLearn/Choi-React/tree/main/instructor_view/static/media/RacingSansOne-Regular.c4f165be512469c89885.ttf",
+    "index.html": "/DashLearn/Choi-React/tree/main/instructor_view/index.html",
+    "main.70f399e5.css.map": "/DashLearn/Choi-React/tree/main/instructor_view/static/css/main.70f399e5.css.map",
+    "main.4634e509.js.map": "/DashLearn/Choi-React/tree/main/instructor_view/static/js/main.4634e509.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70f399e5.css",
+    "static/js/main.4634e509.js"
+  ]
+}
